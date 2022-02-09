@@ -1,0 +1,46 @@
+.rounded {
+    width: 450px;
+    background-color: #FFD966;
+    padding: 5px;
+    text-align: center;
+    border-radius: 0.5rem;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.description {
+        width: 650px;
+        border-radius: 1rem;
+        border: solid 2px #FFD966;
+        margin-bottom: 40px;
+        font-size: 14px;
+}
+
+.post-rounded {
+        width: 750px;
+        border: solid black 1px;
+        text-align: center;
+        border-radius: 0.5rem;
+        margin-bottom: 10px;    
+}
+    
+.post-detail {
+        width: 730px;
+        border: none;
+        margin-bottom: 55px;
+}
+
+.post-detail-btn {
+        width: 90px;
+        background-color: #FFD966;
+        border-radius: 0.5rem;
+        border: none;
+        font-size: 15px;
+        float: right;
+}
+
+.post-detail-btn:hover {
+        background-color: #fce49a;
+        cursor: pointer;
+}

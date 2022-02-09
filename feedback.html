@@ -1,0 +1,42 @@
+<head>
+    <title>FeedBack</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link href="feedback.css" rel="stylesheet">
+</head>
+<script>
+    const drawStar = (target) => {
+        document.querySelector(`.star span`).style.width = `${target.value * 10}%`;
+      }
+</script>
+<body>
+    <div class="nav">
+        <ul>
+            <li><a href="#">HTP Test Result</a></li>
+            <li><a href="#">Monthly Report</a></li>
+            <li><a href="solution_1.html">Books</a></li>
+            <li><a href="solution_2.html">Places</a></li>
+            <li><a href="history.html">Request consultation</a></li>
+            <li><a href="history.html">My Consultion & History</a></li>
+            <li><a href="history.html">Agora</a></li>
+        </ul>
+    </div>
+    <center>
+        <div class="rounded">
+            <b>Feedback</b>
+        </div>
+        <div class="description">
+            <p>Were you satisfied with the consultation? Please leave a review with a star rating.</p>
+        </div>
+        <span class="star">
+            ★★★★★
+            <span>★★★★★</span>
+            <input type="range" oninput="drawStar(this)" value="1" step="1" min="0" max="10">
+        </span>
+        <div style="margin-top: 10px;">
+            <label for="review">Your Review</label>
+            <br>
+            <textarea class="review" id="review" name="story" rows="5"></textarea>
+        </div>
+        <button class="submit-btn" onclick="window.close()">Submit Feedback</button>
+      </center>
+</body>

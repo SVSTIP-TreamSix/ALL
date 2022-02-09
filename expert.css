@@ -1,0 +1,82 @@
+.rounded {
+    width: 450px;
+    background-color: #FFD966;
+    padding: 5px;
+    text-align: center;
+    border-radius: 0.5rem;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.description {
+    width: 650px;
+    height: 46px;
+    text-align: center;
+    border-radius: 1rem;
+    border: solid 2px #FFD966;
+    margin-bottom: 40px;
+    font-size: 14px;
+}
+
+.wrap{
+    width: 800px;
+    height: 800px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 1rem;
+    border: solid 1px grey;
+}
+
+.ex-list-ul {
+    list-style: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.expert-table {
+    width: 680px;
+}
+
+.expert-table-td-info {
+    text-align: center;
+    width: 420px;
+}
+
+.expert-info {
+    margin: 0px;
+}
+
+.expert-table-td-btn {
+    text-align: center;
+    width: 210px;
+}
+
+.silhouette{
+    float: left;
+}
+
+.expert{
+    text-align:left;
+    font-size:18px;
+    margin-top: 20px;
+    padding-bottom: 70px;
+}
+
+.reservation{
+    width: 100px;
+    background-color: #FFD966;
+    color:black;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    float: right;
+}
+.reservation:hover {
+    background-color: #ffe595;
+    cursor: pointer;
+}
+

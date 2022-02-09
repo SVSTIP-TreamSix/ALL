@@ -1,0 +1,56 @@
+<head>
+    <title>Online Consultation</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link href="online_consult_page.css" rel="stylesheet">
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li><a href="#">HTP Test Result</a></li>
+            <li><a href="#">Monthly Report</a></li>
+            <li><a href="solution_1.html">Books</a></li>
+            <li><a href="solution_2.html">Places</a></li>
+            <li><a href="history.html">Request consultation</a></li>
+            <li><a href="history.html">My Consultion & History</a></li>
+            <li><a href="history.html">Agora</a></li>
+        </ul>
+    </div>
+    <center>
+        <div class="rounded">
+            <b>Online Consultation</b>
+        </div>
+        <div class="description">
+            <p>Write down the questions you want to ask the counselor 1:1 and deliver it! You will receive a reply within one day.</p>
+            <p> Your survey results will also be forwarded.</p>
+        </div>
+        <div style="margin-bottom: 20px; margin-top: 20px;">
+            <b style="font-size: 20px;"><U>Counselor's Information</U></b>
+        </div>
+        <table class="expert-table">
+            <tr>
+                <td class="expert-table-td-img">
+                    <img src="img/woman.png" width="100px" height="100px">
+                </td>
+                <td class="expert-table-td-info" colspan="2">
+                    <strong>Catherine</strong>
+                    <p class="expert-info"><b>Lopcation : </b>Seoul, Yongsan-gu</p>
+                    <p class="expert-info"><b>Tel : </b> 02-222-1234</p>
+                    <p class="expert-info"><b>Rate : </b> ★★★★★</p>
+                    <p class="expert-info" style="font-size: 14px;">Specialized in diagnosing childhood depression.</p>
+                </td>
+            </tr>
+        </table>
+
+        <hr class="bar">
+
+        <div>
+            <label for="questions"><b>Your Questions</b></label>
+            <div style="margin-top: 10px; margin-bottom: 10px;">
+                <label for="title"><b>Title</b></label>
+                <input type="text" class="title" id="title" name="title">
+            </div>
+            <textarea class="questions" id="questions" name="questions" rows="7"></textarea>
+         </div>
+         <button class="submit-btn" onclick="location.href='history.html'">Submit Question</button>
+    </center>
+</body>

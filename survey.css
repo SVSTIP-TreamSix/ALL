@@ -1,0 +1,48 @@
+.rounded {
+    width: 450px;
+    background-color: #FFD966;
+    padding: 5px;
+    text-align: center;
+    border-radius: 0.5rem;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.description {
+    width: 650px;
+    border-radius: 1rem;
+    border: solid 2px #FFD966;
+    margin-bottom: 40px;
+    font-size: 14px;
+}
+
+.survey-form {
+    width: 800px;
+    height: 500px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 1rem;
+    border: solid 1px black;
+}
+
+.survey-table {
+    border-collapse: separate;
+    border-spacing: 0 20px;
+    margin-bottom: 30px;
+}
+
+.survey-btn{
+    width: 350px;
+    background-color: #FFD966;
+    padding: 5px;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.survey-btn:hover {
+    background-color: #fce49a;
+    cursor: pointer;
+}

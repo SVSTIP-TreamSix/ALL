@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My reservation and consultation history</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link href="history.css" rel="stylesheet">
+</head>
+<script>
+    function windowPopup(){
+        window.open('feedback.html', 'window팝업', 'width=600px, height=360px, menubar=no, status=no, toolbar=no');
+    }
+</script>
+<body>
+    <div class="nav">
+        <ul>
+            <li><a href="#">HTP Test Result</a></li>
+            <li><a href="#">Monthly Report</a></li>
+            <li><a href="solution_1.html">Books</a></li>
+            <li><a href="solution_2.html">Places</a></li>
+            <li><a href="history.html">Request consultation</a></li>
+            <li><a href="history.html">Consultion History</a></li>
+            <li><a href="history.html">Agora</a></li>
+        </ul>
+    </div>
+    <center>
+        <div class="rounded">
+            <b>My reservation and consultation history</b>
+        </div>
+        <div class="description">
+            <p>You can check my reservation and consultation history and leave feedback.</p>
+        </div>
+        <div class="history-form">
+            <table class="expert-table">
+                <tr class="expert-table-tr">
+                    <td class="expert-table-td-info" colspan="2">
+                        <img src="img/man.png" width="100" height="100" class="silhouette">
+                    </td>
+                    <td class="expert-table-td-his" colspan="2">
+                        <strong>Andew (1:1 Consultation)</strong>
+                        <p class="expert-info"><b>Location : </b>Seoul, Gangnam-gu</p>
+                        <p class="expert-info"><b>Scheduled Date : </b> 2022/03/04</p>
+                        <p class="expert-info"><b>Scheduled Time : </b> PM 1:30</p>
+                    </td>
+                    <td class="expert-table-td-btn">
+                        <button class="btn" type="button" onclick="location.href='#'">Cancel Reservation</button>
+                    </td>
+                </tr>
+                <tr class="expert-table-tr">
+                    <td class="expert-table-td-info" colspan="2">
+                        <img src="img/man.png" width="100" height="100" class="silhouette">
+                    </td>
+                    <td class="expert-table-td-his" colspan="2">
+                        <strong>Bradley (Online)</strong>
+                        <p class="expert-info"><b>Location : </b>Seoul, Gangnam-gu</p>
+                        <p class="expert-info"><b>Question Date : </b>2022/01/31</p>
+                        <p class="expert-info"><b>Answer Date : </b>2022/02/01</p>
+                    </td>
+                    <td>
+                        <button class="btn" type="button" onclick="location.href='#'">Review Consultation</button>
+                        <button class="btn" type="button" onclick="windowPopup()">FeedBack Input</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="expert-table-td-info" colspan="2">
+                        <img src="img/woman.png" width="100" height="100" class="silhouette">
+                    </td>
+                    <td class="expert-table-td-his" colspan="2">
+                        <strong>Catherine (1:1 Consultation)</strong>
+                        <p class="expert-info"><b>Location : </b>Seoul, Seocho-gu</p>
+                        <p class="expert-info"><b>Consultation Date : </b> 2022/01/04</p>
+                        <p class="expert-info"><b>Consultation Time : </b> AM 11:30</p>
+                    </td>
+                    <td>
+                        <button class="btn" type="button" onclick="location.href='#'">Review Consultation</button>
+                        <button class="btn" type="button" onclick="windowPopup()">FeedBack Input</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </center>
+</body>
+</html>

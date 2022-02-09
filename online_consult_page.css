@@ -1,0 +1,75 @@
+.rounded {
+    width: 200px;
+    background-color: #FFD966;
+    padding: 5px;
+    text-align: center;
+    border-radius: 0.5rem;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.description {
+    width: 800px;
+    border-radius: 1rem;
+    border: solid 2px #FFD966;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.expert-table {
+    width: 600px;
+}
+
+.expert-table-td-img {
+    width: 200px;
+}
+
+.expert-table-td-info {
+    text-align: center;
+    width: 400px;
+}
+
+.expert-info {
+    margin: 0px;
+}
+
+.bar{
+    height:0.7px;
+    width:850px;
+    background-color: grey;
+    margin: 30px;
+}
+
+.title {
+    width: 400px;
+    border-radius: 0.5  rem;
+    border: solid 2px #FFD966;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.questions {
+    width: 800px;
+    border-radius: 1rem;
+    border: solid 2px #FFD966;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.submit-btn {
+    width: 200px;
+    background-color: #FFD966;
+    padding: 5px;
+    text-align: center;
+    border-radius: 0.5rem;
+    font-size: 18px;
+    border: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.submit-btn:hover {
+    background-color: #fce49a;
+    cursor: pointer;
+}

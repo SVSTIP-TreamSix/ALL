@@ -1,0 +1,67 @@
+.rounded {
+    width: 450px;
+    background-color: #FFD966;
+    padding: 5px;
+    text-align: center;
+    border-radius: 0.5rem;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.description {
+    width: 650px;
+    border-radius: 1rem;
+    border: solid 2px #FFD966;
+    margin-bottom: 20px;
+}
+
+.place-form {
+    width: 1200px;
+    height: 610px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 1rem;
+    border: solid 1px black;
+}
+
+.place-container {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 295px 295px;
+    margin: 10px;
+    text-align: center;
+}
+
+.place-img {
+    width: 270px;
+    height: 150px;
+}
+
+.place-info-title {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.place-info {
+    font-size: 12px;
+}
+
+.place-buy-btn {
+    width: 80px;
+    background-color: #FFD966;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.place-buy-btn:hover {
+    background-color: #fce49a;
+    cursor: pointer;
+}
+
+.item {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

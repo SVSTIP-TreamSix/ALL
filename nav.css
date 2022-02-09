@@ -1,0 +1,22 @@
+.nav ul {
+    list-style: none;
+    background:gray;
+    text-align: center;
+    padding:0;
+    margin:0; }
+
+.nav li {
+    display: inline-block;
+}
+
+.nav a { 
+    text-decoration: none; 
+    color:white;
+    width:140px; 
+    display: block;
+    padding: 5px;
+    font-size: 14.5px; }
+
+.nav a:hover { 
+    background: #000;
+}
